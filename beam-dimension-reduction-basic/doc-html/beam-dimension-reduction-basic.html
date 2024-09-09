@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:x="https://www.texmacs.org/2002/extensions" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <head>
+    <title>A compendium on dimension reductionfor slender elastic
+    beams</title>
+    <meta charset="utf-8" content="TeXmacs 2.1.4" name="generator"></meta>
+    <style type="text/css">
+      body { text-align: justify } h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+  </head>
+  <body>
+    <div class="toggle" style="display: none">
+      <p>
+        
+      </p>
+      <p>
+        
+      </p>
+    </div>
+    <table class="title-block" style="margin-bottom: 2em">
+      <tr>
+        <td><table class="title-block" style="margin-top: 0.5em; margin-bottom: 0.5em">
+          <tr>
+            <td><font style="font-size: 168.2%"><strong>A compendium on dimension reduction<br
+            />for slender elastic beams</strong></font></td>
+          </tr>
+        </table><div class="compact-block" style="margin-top: 1em; margin-bottom: 1em">
+          <table class="title-block">
+            <tr>
+              <td><font style="font-size: 91.7%"><p>
+                <span style="margin-left: 0em"></span><span style="margin-left: 1em"></span>
+              </p><p>
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0.75em; padding-top: 0.75em; width: 100%"><center>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                <class style="font-variant: small-caps">Basile Audoly</class>
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                LMS, &Eacute;cole polytechnique
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p>
+                <span style="margin-left: 1em"></span><span style="margin-left: 1em"></span>
+              </p><p>
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0.75em; padding-top: 0.75em; width: 100%"><center>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                <class style="font-variant: small-caps">Corrado Maurini</class>
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                      <p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                        <div style="display: inline">
+                          <span style="margin-left: 0pt"></span>
+                        </div>
+                        <table style="display: inline-table; vertical-align: middle">
+                          <tbody><tr>
+                            <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                              <p>
+                                d'Alembert, Sorbonne Universit&eacute;
+                              </p>
+                            </center></td>
+                          </tr></tbody>
+                        </table>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p>
+                <span style="margin-left: 1em"></span>
+              </p></font></td>
+            </tr>
+          </table>
+        </div><table class="title-block" style="margin-top: 0.5em; margin-bottom: 0.5em">
+          <tr>
+            <td><i>September 9, 2024</i></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+    <div style="margin-top: 2em; margin-bottom: 0.5em; margin-left: 60px; margin-right: 60px">
+      <p style="margin-bottom: 0.5em">
+        <font style="font-size: 84.1%"><strong>Abstract</strong></font>
+      </p>
+    </div>
+    <div style="margin-bottom: 1em; margin-left: 60px; margin-right: 60px">
+      <font style="font-size: 84.1%"><div class="left-tab">
+        Using the assumption of cylindrical invariance, we derive a
+        one-dimensional beam model representing a prismatic elastic body. In
+        this elementary presentation, we limit attention to <em>linear</em>
+        elasticity and neglect any gradient effect (<em>i.e.</em>, we derive
+        the leading-order contributions to the 1D energy). The approach works
+        for arbitrary shapes of cross-section, arbitrary material symmetries
+        and constitutive laws, and does not require the elastic properties to
+        be homogeneous in the cross-section. It does not make any <em>ad
+        hoc</em> kinematic assumption such as unshearability.<br /><br
+        /><em>This work is licensed under a &lsquo;Creative Commons BY&rsquo;
+        licence.</em> 
+      </div><div class="right-tab">
+        <img class="image" src="beam-dimension-reduction-basic-1.png" width="70.29196"></img>
+      </div></font>
+    </div>
+    <h3 id="auto-1">1<span style="margin-left: 1em"></span>Formulation of the 3D elasticity problem<span
+    style="margin-left: 1em"></span></h3>
+    <p>
+      In reference configuration, the prismatic 3D body occupies the domain
+      <img src="beam-dimension-reduction-basic-2.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0612794612794613em; margin-right: -0.0137912457912455em; margin-top: -0.037952861952862em; vertical-align: -0.0957575757575758em; height: 0.779205387205387em"></img> where <img src="beam-dimension-reduction-basic-3.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912458em; margin-top: -0.037952861952862em; vertical-align: 0em; height: 0.758518518518519em"></img> is the reference
+      cross-sectional domain. We denote by <img src="beam-dimension-reduction-basic-4.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781145em; margin-right: -0.0137912457912457em; margin-top: -0.0402424242424243em; vertical-align: 0em; height: 0.792996632996633em"></img> the
+      boundary of the domain <img src="beam-dimension-reduction-basic-3.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912458em; margin-top: -0.037952861952862em; vertical-align: 0em; height: 0.758518518518519em"></img> in <img src="beam-dimension-reduction-basic-5.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781145em; margin-right: -0.0137912457912457em; margin-top: -0.0314343434343434em; vertical-align: 0em; height: 0.881292929292929em"></img>
+      and by <img src="beam-dimension-reduction-basic-6.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912455em; margin-top: -0.0314343434343434em; vertical-align: -0.258585858585859em; height: 1.11574410774411em"></img> the unit outer normal at any point of
+      <span class="no-breaks"><img src="beam-dimension-reduction-basic-4.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781145em; margin-right: -0.0137912457912457em; margin-top: -0.0402424242424243em; vertical-align: 0em; height: 0.792996632996633em"></img>.</span>
+    </p>
+    <p>
+      The cross-sectional coordinate is denoted as <img src="beam-dimension-reduction-basic-7.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00934680134680135em; margin-right: -0.0137912457912459em; margin-top: -0.0314343434343434em; vertical-align: -0.0527138047138047em; height: 0.908875420875421em"></img> and
+      the axial coordinate as <span class="no-breaks"><img src="beam-dimension-reduction-basic-8.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00934680134680135em; margin-right: -0.0137912457912459em; margin-top: -0.0172659932659932em; vertical-align: -0.0527138047138047em; height: 0.78610101010101em"></img>.</span>
+    </p>
+    <p>
+      The 3D displacement field is denoted as <span class="no-breaks"><img src="beam-dimension-reduction-basic-9.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img>,</span>
+      where tildas are used to mark three-dimensional quantities (as opposed
+      to two-dimensional quantities obtained by the forthcoming reduction):
+    </p>
+    <center>
+      <img src="beam-dimension-reduction-basic-10.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912464em; margin-top: -0.0314343434343434em; vertical-align: -0.258585858585859em; height: 1.11574410774411em"></img>
+    </center>
+    <p>
+      
+    </p>
+    <p>
+      The linearized strain <img src="beam-dimension-reduction-basic-11.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> is given by
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-12.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912446em; margin-top: -0.0367946127946128em; vertical-align: -0.676686868686869em; height: 2.00996632996633em"></img></td>
+        <td align="right">(1)</td>
+      </tr>
+    </table>
+    <p>
+      where <img src="beam-dimension-reduction-basic-13.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0413737373737374em; margin-right: -0.0137912457912458em; margin-top: -0.0112861952861952em; vertical-align: 0em; height: 1.00627609427609em"></img> is the 3D gradient
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-14.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00918518518518519em; margin-right: -0.0137912457912464em; margin-top: -0.0183973063973064em; vertical-align: -0.982626262626263em; height: 2.51000673400673em"></img></td>
+        <td align="right">(2)</td>
+      </tr>
+    </table>
+    <p>
+      and <img src="beam-dimension-reduction-basic-15.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0413737373737374em; margin-right: -0.0137912457912458em; margin-top: -0.0172659932659932em; vertical-align: 0em; height: 0.765414141414141em"></img> is the 2D gradient
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-16.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00918518518518519em; margin-right: -0.0137912457912446em; margin-top: -0.0183973063973064em; vertical-align: -0.982626262626263em; height: 2.51000673400673em"></img></td>
+        <td align="right">(3)</td>
+      </tr>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      In the absence of distributed load, the potential energy takes the form
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-17.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0612794612794612em; margin-right: -0.0137912457912464em; margin-top: -0.0206868686868686em; vertical-align: -1.01664646464646em; height: 2.35372390572391em" id="eq:elastic-Phi"></img></td>
+        <td align="right">(4)</td>
+      </tr>
+    </table>
+    <p>
+      where <img src="beam-dimension-reduction-basic-18.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912455em; margin-top: -0.0112861952861952em; vertical-align: -0.258585858585859em; height: 1.23383164983165em"></img> is the quadratic strain energy density of
+      the material, and <img src="beam-dimension-reduction-basic-19.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0206868686868687em; margin-right: -0.0137912457912459em; margin-top: -0.0112861952861952em; vertical-align: -0.148390572390572em; height: 1.1339797979798em"></img> is the work of the loading
+      applied on the remote terminal cross-sections, located at <span class="no-breaks"><img
+      src="beam-dimension-reduction-basic-20.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0681750841750842em; margin-right: -0.0137912457912459em; margin-top: -0.0103703703703704em; vertical-align: -0.0957575757575758em; height: 0.744727272727273em"></img>.</span> This remote loading is left unspecified.
+    </p>
+    <p>
+      Equilibrium solutions <img src="beam-dimension-reduction-basic-9.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> are found by making the
+      energy <img src="beam-dimension-reduction-basic-21.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00344781144781148em; margin-right: -0.0137912457912459em; margin-top: -0.0112861952861952em; vertical-align: -0.258585858585859em; height: 1.22693602693603em"></img> in (<a href="#eq:elastic-Phi">4</a>) stationary. We
+      proceed to derive them variationally. Perturbing an equilibrium solution
+      <img src="beam-dimension-reduction-basic-9.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> with a test function <span class="no-breaks"><img src="beam-dimension-reduction-basic-22.png"
+      style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img>,</span> we obtain the directional derivative of the total
+      potential energy as
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-23.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.164686868686869em; margin-right: -0.0137912457912464em; margin-top: 0.0827205387205385em; vertical-align: -2.73478787878788em; height: 5.67894949494949em" id="eq:3D-principle-virtual-work"></img></td>
+        <td align="right">(5)</td>
+      </tr>
+    </table>
+    <p>
+      where <img src="beam-dimension-reduction-basic-24.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> is the elastic stress
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-25.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781146em; margin-right: -0.0137912457912455em; margin-top: -0.0112861952861951em; vertical-align: -0.676686868686869em; height: 2.29220202020202em" id="eq:3D-stress-general-CL"></img></td>
+        <td align="right">(6)</td>
+      </tr>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      The stationarity condition is that the first variation of energy in (<a
+      href="#eq:3D-principle-virtual-work">5</a>) is zero for any perturbation <span class="no-breaks"><img src="beam-dimension-reduction-basic-26.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912458em; margin-top: -0.0112861952861952em; vertical-align: 0em; height: 0.731609427609428em"></img>,</span>
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-27.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912464em; margin-top: -0.0112861952861952em; vertical-align: -0.258585858585859em; height: 1.23383164983165em"></img></td>
+        <td align="right">(7)</td>
+      </tr>
+    </table>
+    <p>
+      Integrating by parts, we obtain the equilibrium equations in the bulk in
+      the form
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-28.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912446em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img></td>
+        <td align="right">(8)</td>
+      </tr>
+    </table>
+    <p>
+      along with the boundary conditions
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-29.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912446em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img></td>
+        <td align="right">(9)</td>
+      </tr>
+    </table>
+    <p>
+      The boundary conditions on the terminal cross-sections <img src="beam-dimension-reduction-basic-20.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0681750841750842em; margin-right: -0.0137912457912459em; margin-top: -0.0103703703703704em; vertical-align: -0.0957575757575758em; height: 0.744727272727273em"></img>
+      are not detailed.
+    </p>
+    <h3 id="auto-2">2<span style="margin-left: 1em"></span>Axially invariant solutions<span style="margin-left: 1em"></span></h3>
+    <p>
+      We consider particular solutions such that the strain is independent of
+      the axial coordinate <span class="no-breaks"><img src="beam-dimension-reduction-basic-30.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0490774410774411em; margin-top: -0.0103703703703704em; vertical-align: 0em; height: 0.730936026936027em"></img>,</span>
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-31.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781146em; margin-right: -0.0137912457912446em; margin-top: -0.0103434343434343em; vertical-align: -0.676686868686869em; height: 2.11348148148148em" id="eq:invariant-strain"></img></td>
+        <td align="right">(10)</td>
+      </tr>
+    </table>
+    <p>
+      From the viewpoint of beam theory, this corresponds to <em>uniform</em>
+      stretching, bending and twisting strains along the axis.
+    </p>
+    <p>
+      We denote as <img src="beam-dimension-reduction-basic-32.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00934680134680135em; margin-right: -0.0137912457912455em; margin-top: -0.0172659932659932em; vertical-align: -0.0527138047138047em; height: 0.78610101010101em"></img> the constant axial strain, <img
+      src="beam-dimension-reduction-basic-33.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912455em; margin-top: -0.0314343434343434em; vertical-align: -0.258585858585859em; height: 1.11574410774411em"></img> the constant bending strain and <img src="beam-dimension-reduction-basic-34.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00934680134680135em; margin-right: -0.0137912457912459em; margin-top: -0.0172659932659932em; vertical-align: -0.0527138047138047em; height: 0.78610101010101em"></img>
+      the constant twisting strain:
+    </p>
+    <ul>
+      <li>
+        <p>
+          the axial strain <img src="beam-dimension-reduction-basic-35.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0275824915824916em; margin-right: -0.0137912457912458em; margin-top: -0.0235690235690236em; vertical-align: 0em; height: 0.496484848484848em"></img> is dimensionless and
+          measures the relative elongation of the centerline
+        </p>
+      </li>
+      <li>
+        <p>
+          the curvature strain <img src="beam-dimension-reduction-basic-36.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0206868686868687em; margin-right: -0.0137912457912458em; margin-top: -0.0126599326599327em; vertical-align: 0em; height: 0.751622895622896em"></img> is the curvature of the
+          centerline, and is homogeneous to the inverse of a length
+        </p>
+      </li>
+      <li>
+        <p>
+          the twisting strain <img src="beam-dimension-reduction-basic-36.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0206868686868687em; margin-right: -0.0137912457912458em; margin-top: -0.0126599326599327em; vertical-align: 0em; height: 0.751622895622896em"></img> is the derivative of the
+          twist angle of the cross-section with respect to the axial
+          coordinate <span class="no-breaks"><img src="beam-dimension-reduction-basic-30.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0490774410774411em; margin-top: -0.0103703703703704em; vertical-align: 0em; height: 0.730936026936027em"></img>,</span> and is
+          homogeneous to the inverse of a length too.
+        </p>
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      The displacement <img src="beam-dimension-reduction-basic-37.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00934680134680135em; margin-right: -0.0137912457912455em; margin-top: -0.0314343434343434em; vertical-align: -0.0527138047138047em; height: 0.908875420875421em"></img> on a reference cross-section
+      <img src="beam-dimension-reduction-basic-38.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781145em; margin-right: -0.0137912457912459em; margin-top: -0.0103703703703704em; vertical-align: 0em; height: 0.751622895622896em"></img> is denoted as
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-39.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912464em; margin-top: -0.0314343434343434em; vertical-align: -0.258585858585859em; height: 1.11574410774411em"></img></td>
+        <td align="right">(11)</td>
+      </tr>
+    </table>
+    <p>
+      for <span class="no-breaks"><img src="beam-dimension-reduction-basic-40.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00934680134680135em; margin-right: -0.0137912457912455em; margin-top: -0.0350707070707071em; vertical-align: -0.0527138047138047em; height: 0.806787878787879em"></img>.</span> The displacement <img
+      src="beam-dimension-reduction-basic-41.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912455em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> is a 3D-vector, defined on a 2D domain <span class="no-breaks"><img
+      src="beam-dimension-reduction-basic-3.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912458em; margin-top: -0.037952861952862em; vertical-align: 0em; height: 0.758518518518519em"></img>,</span>
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-42.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781145em; margin-right: -0.0137912457912464em; margin-top: -0.0314343434343434em; vertical-align: 0em; height: 0.881292929292929em"></img></td>
+        <td align="right">(12)</td>
+      </tr>
+    </table>
+    <p>
+      The projections of <img src="beam-dimension-reduction-basic-43.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0206868686868687em; margin-right: -0.0137912457912458em; margin-top: -0.023003367003367em; vertical-align: 0em; height: 0.503380471380471em"></img> onto the cross-section
+      (included in the plane spanned by <img src="beam-dimension-reduction-basic-44.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912459em; margin-top: -0.023003367003367em; vertical-align: -0.148390572390572em; height: 0.644875420875421em"></img> and <span
+      class="no-breaks"><img src="beam-dimension-reduction-basic-45.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912459em; margin-top: -0.023003367003367em; vertical-align: -0.148390572390572em; height: 0.644875420875421em"></img>),</span> and onto the axis (along <span
+      class="no-breaks"><img src="beam-dimension-reduction-basic-46.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0275824915824916em; margin-right: -0.0137912457912459em; margin-top: -0.023003367003367em; vertical-align: -0.148390572390572em; height: 0.658666666666667em"></img>)</span> are denoted as <img src="beam-dimension-reduction-basic-47.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912464em; margin-top: -0.0137912457912458em; vertical-align: -0.258585858585859em; height: 1.19488215488215em"></img>
+      and <span class="no-breaks"><img src="beam-dimension-reduction-basic-48.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912464em; margin-top: -0.0107474747474747em; vertical-align: -0.258585858585859em; height: 1.12953535353535em"></img>,</span> respectively:
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-49.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912464em; margin-top: -0.0137912457912458em; vertical-align: -0.258585858585859em; height: 1.19488215488215em"></img></td>
+        <td align="right">(13)</td>
+      </tr>
+    </table>
+    <p>
+      We postulate that the invariant solution <img src="beam-dimension-reduction-basic-9.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> in the
+      entire tube can be reconstructed from the displacement on the particular
+      cross-section <img src="beam-dimension-reduction-basic-38.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781145em; margin-right: -0.0137912457912459em; margin-top: -0.0103703703703704em; vertical-align: 0em; height: 0.751622895622896em"></img> as
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-50.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912464em; margin-top: -0.0314343434343434em; vertical-align: -0.676686868686869em; height: 2.15342760942761em" id="eq:invariant-displacement"></img></td>
+        <td align="right">(14)</td>
+      </tr>
+    </table>
+    <p>
+      where the successive terms represent
+    </p>
+    <ul>
+      <li>
+        <p>
+          a rigid-body translation of the cros-sections along the longitudinal
+          vector <img src="beam-dimension-reduction-basic-51.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0275824915824916em; margin-right: -0.0137912457912459em; margin-top: -0.0103703703703704em; vertical-align: -0.148390572390572em; height: 0.893117845117845em"></img> representing uniform stretching,
+        </p>
+      </li>
+      <li>
+        <p>
+          a rigid-body translation of the cros-sections along the transverse
+          vector <img src="beam-dimension-reduction-basic-52.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912455em; margin-top: -0.0209562289562291em; vertical-align: -0.418074074074074em; height: 1.5263569023569em"></img> capturing the bending of the
+          centerline
+        </p>
+      </li>
+      <li>
+        <p>
+          a rigid-body rotation of the cross-sections with (infinitesimal)
+          rotation angle <img src="beam-dimension-reduction-basic-53.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912455em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> caused by the combined action
+          of bending and stretching,
+        </p>
+      </li>
+      <li>
+        <p>
+          a <em>non-rigid</em> deformation of cross-sections associated with
+          the displacement <span class="no-breaks"><img src="beam-dimension-reduction-basic-41.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912455em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img>,</span> which
+          by assumption is independent of the longitudinal coordinate <span
+          class="no-breaks"><img src="beam-dimension-reduction-basic-30.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0490774410774411em; margin-top: -0.0103703703703704em; vertical-align: 0em; height: 0.730936026936027em"></img>.</span>
+        </p>
+      </li>
+    </ul>
+    <p>
+      The homogeneous solutions introduced in (<a href="#eq:invariant-strain">10</a>) and (<a href="#eq:invariant-displacement">14</a>)
+      are meant to approximate solutions that vary <em>slowly</em> in the
+      longitudinal direction. Homogeneous solutions are instrumental to
+      dimensional reduction.
+    </p>
+    <p>
+      To check the consistency of (<a href="#eq:invariant-strain">10</a>) and (<a href="#eq:invariant-displacement">14</a>), we
+      calculate the strain associated with the displacement in (<a href="#eq:invariant-displacement">14</a>)
+      and the result is
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-54.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912464em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em" id="eq:eps-tilde-reduction"></img></td>
+        <td align="right">(15)</td>
+      </tr>
+    </table>
+    <p>
+      where <img src="beam-dimension-reduction-basic-55.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> is the strain arising from the
+      cross-sectional displacement <span class="no-breaks"><img src="beam-dimension-reduction-basic-41.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912455em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img>,</span>
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-56.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0492390572390571em; margin-right: -0.0137912457912446em; margin-top: 0.0926599326599327em; vertical-align: -4.63474747474748em; height: 9.5843771043771em"></img></td>
+        <td align="right">(16)</td>
+      </tr>
+    </table>
+    <p>
+      the symbol <img src="beam-dimension-reduction-basic-57.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0145723905723906em; margin-right: -0.0137912457912458em; margin-top: -0.0145723905723906em; vertical-align: -0.0957575757575758em; height: 0.73783164983165em"></img> denotes the symmetrized tensor
+      product,
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-58.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912464em; margin-top: -0.0126599326599326em; vertical-align: -0.676686868686869em; height: 2.03754882154882em"></img></td>
+        <td align="right">(17)</td>
+      </tr>
+    </table>
+    <p>
+      <img src="beam-dimension-reduction-basic-59.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0137912457912458em; vertical-align: -0.258585858585859em; height: 1.19488215488215em"></img> is the apparent 2D strain,
+    </p>
+    <center>
+      <img src="beam-dimension-reduction-basic-60.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0492390572390571em; margin-right: -0.0137912457912464em; margin-top: 0.0896161616161621em; vertical-align: -3.56339393939394em; height: 7.44468686868687em"></img>
+    </center>
+    <p>
+      and <img src="beam-dimension-reduction-basic-61.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912455em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> is a pre-strain arising from the macroscopic
+      strain <span class="no-breaks"><img src="beam-dimension-reduction-basic-62.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img>,</span> defined by
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-63.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0492390572390571em; margin-right: -0.0137912457912464em; margin-top: 0.0850101010101012em; vertical-align: -4.21920538720539em; height: 8.76094276094276em"></img></td>
+        <td align="right">(18)</td>
+      </tr>
+    </table>
+    <p>
+      whose longitudinal component is given by
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-64.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912464em; margin-top: -0.0314343434343435em; vertical-align: -0.258585858585859em; height: 1.14162962962963em" id="eq:eps-0"></img></td>
+        <td align="right">(19)</td>
+      </tr>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      The effective 2D energy takes the form
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-65.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0183703703703704em; margin-right: -0.0137912457912464em; margin-top: -0.0206868686868686em; vertical-align: -0.920888888888889em; height: 2.33761616161616em"></img></td>
+        <td align="right">(20)</td>
+      </tr>
+    </table>
+    <p>
+      where <img src="beam-dimension-reduction-basic-66.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912464em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> is obtained by inserting (<a href="#eq:eps-tilde-reduction">15</a>&ndash;<a
+      href="#eq:eps-0">19</a>) into the strain energy density <span class="no-breaks"><img src="beam-dimension-reduction-basic-18.png"
+      style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912455em; margin-top: -0.0112861952861952em; vertical-align: -0.258585858585859em; height: 1.23383164983165em"></img>,</span>
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-67.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912446em; margin-top: -0.0112861952861952em; vertical-align: -0.258585858585859em; height: 1.23383164983165em" id="eq:W-tilde-to-W"></img></td>
+        <td align="right">(21)</td>
+      </tr>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      Next, we minimize the effective 2D potential <img src="beam-dimension-reduction-basic-68.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00344781144781148em; margin-right: -0.0137912457912455em; margin-top: -0.0172390572390573em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img>
+      with respect to the cross-sectional displacement, and denote as <img
+      src="beam-dimension-reduction-basic-69.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0206868686868687em; margin-right: -0.0137912457912457em; margin-top: -0.0308417508417509em; vertical-align: 0em; height: 0.743380471380471em"></img> the optimum,
+    </p>
+    <center>
+      <img src="beam-dimension-reduction-basic-70.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00344781144781148em; margin-right: -0.0137912457912464em; margin-top: -0.0172390572390573em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img>
+    </center>
+    <p>
+      The optimal cross-sectional displacement is <img src="beam-dimension-reduction-basic-69.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0206868686868687em; margin-right: -0.0137912457912457em; margin-top: -0.0308417508417509em; vertical-align: 0em; height: 0.743380471380471em"></img>
+      typically unique up to rigid-body translation, and rigid-body rotation
+      about the axis <span class="no-breaks"><img src="beam-dimension-reduction-basic-46.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0275824915824916em; margin-right: -0.0137912457912459em; margin-top: -0.023003367003367em; vertical-align: -0.148390572390572em; height: 0.658666666666667em"></img>.</span>
+    </p>
+    <p style="margin-top: 1em; margin-bottom: 1em">
+      <strong>Remark <class style="font-style: normal">1</class>. </strong>The minimization
+      problem above is <em>not</em> invariant by rigid-body rotations about
+      the cross-sectional vectors <img src="beam-dimension-reduction-basic-44.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912459em; margin-top: -0.023003367003367em; vertical-align: -0.148390572390572em; height: 0.644875420875421em"></img> and <span class="no-breaks"><img
+      src="beam-dimension-reduction-basic-45.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912459em; margin-top: -0.023003367003367em; vertical-align: -0.148390572390572em; height: 0.644875420875421em"></img>,</span> which correspond to shear modes of the 3D
+      beam by (<a href="#eq:invariant-displacement">14</a>).
+    </p>
+    <p>
+      By linearity, the relaxed strain <img src="beam-dimension-reduction-basic-71.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781145em; margin-right: -0.0137912457912457em; margin-top: -0.0163771043771044em; vertical-align: 0em; height: 0.757387205387205em"></img> can be written
+      as
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-72.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0492390572390575em; margin-right: -0.0137912457912446em; margin-top: 0.0931447811447814em; vertical-align: -2.35746801346801em; height: 5.0293063973064em" id="eq:elast-decompose-optimal-strain"></img></td>
+        <td align="right">(22)</td>
+      </tr>
+    </table>
+    <p>
+      where <img src="beam-dimension-reduction-basic-73.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> is the cross-sectional distribution of
+      strain arising from the 1D strain <span class="no-breaks"><img src="beam-dimension-reduction-basic-74.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0172390572390573em; margin-right: -0.0137912457912464em; margin-top: -0.0172390572390573em; vertical-align: -0.258585858585859em; height: 1.06882154882155em"></img>.</span>
+    </p>
+    <p>
+      The equivalent beam model is then defined by the strain energy
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-75.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0541683501683501em; margin-right: -0.0490774410774399em; margin-top: 0.0127946127946128em; vertical-align: -1.68942760942761em; height: 3.7650101010101em" id="eq:1D-energy"></img></td>
+        <td align="right">(23)</td>
+      </tr>
+    </table>
+    <p>
+      where the entries in the <img src="beam-dimension-reduction-basic-76.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.08196632996633em; margin-right: -0.0137912457912459em; margin-top: -0.0505858585858586em; vertical-align: -0.0957575757575758em; height: 0.730936026936027em"></img> matrix of 1D moduli
+      <img src="beam-dimension-reduction-basic-77.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0464646464646465em; margin-top: -0.0143838383838384em; vertical-align: 0em; height: 0.73783164983165em"></img> is given by
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-78.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0183703703703704em; margin-right: -0.0137912457912464em; margin-top: -0.0206868686868686em; vertical-align: -0.920888888888889em; height: 2.33761616161616em" id="eq:elast-1D-moduli"></img></td>
+        <td align="right">(24)</td>
+      </tr>
+    </table>
+    <p>
+      The 1D constitutive law yield the normal stress <span class="no-breaks"><img src="beam-dimension-reduction-basic-79.png"
+      style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0880000000000001em; margin-top: -0.0103703703703704em; vertical-align: 0em; height: 0.730936026936027em"></img>,</span> the bending moments <img src="beam-dimension-reduction-basic-80.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912459em; margin-top: -0.0103703703703704em; vertical-align: -0.148390572390572em; height: 0.879326599326599em"></img> and
+      <img src="beam-dimension-reduction-basic-81.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912459em; margin-top: -0.0103703703703704em; vertical-align: -0.148390572390572em; height: 0.879326599326599em"></img> and the twisting moment <img src="beam-dimension-reduction-basic-82.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0275824915824916em; margin-right: -0.0137912457912459em; margin-top: -0.0103703703703704em; vertical-align: -0.148390572390572em; height: 0.893117845117845em"></img>
+      as
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-83.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0541683501683501em; margin-right: -0.0137912457912446em; margin-top: 0.0127946127946128em; vertical-align: -1.68942760942761em; height: 3.7650101010101em" id="eq:elastic-constitutive-laws"></img></td>
+        <td align="right">(25)</td>
+      </tr>
+    </table>
+    <h3 id="auto-3">3<span style="margin-left: 1em"></span>Analytical solution for a Hookean material
+    having uniform properties<span style="margin-left: 1em"></span></h3>
+    <p>
+      For a linear, isotropic elastic material, the strain energy density <img
+      src="beam-dimension-reduction-basic-18.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912455em; margin-top: -0.0112861952861952em; vertical-align: -0.258585858585859em; height: 1.23383164983165em"></img> can be expressed in terms of the material constants
+      <img src="beam-dimension-reduction-basic-84.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0444444444444444em; margin-top: -0.0103703703703704em; vertical-align: 0em; height: 0.730936026936027em"></img> (bulk modulus) and <img src="beam-dimension-reduction-basic-85.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0402424242424242em; margin-right: -0.0137912457912458em; margin-top: -0.0235690235690236em; vertical-align: -0.201104377104377em; height: 0.710249158249158em"></img>
+      (shear modulus) as
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-86.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912464em; margin-top: -0.0103703703703704em; vertical-align: -0.676686868686869em; height: 2.02375757575758em"></img></td>
+        <td align="right">(26)</td>
+      </tr>
+    </table>
+    <p>
+      where <img src="beam-dimension-reduction-basic-87.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0206868686868687em; margin-right: -0.0137912457912457em; margin-top: -0.0115016835016836em; vertical-align: 0em; height: 0.874397306397306em"></img> denotes the deviatoric part of a symmetric
+      rank-2 tensor,
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-88.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781146em; margin-right: -0.0137912457912464em; margin-top: -0.0367946127946128em; vertical-align: -0.676686868686869em; height: 2.0306531986532em"></img></td>
+        <td align="right">(27)</td>
+      </tr>
+    </table>
+    <p>
+      <img src="beam-dimension-reduction-basic-89.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0206868686868687em; margin-right: -0.0137912457912457em; margin-top: -0.0143838383838384em; vertical-align: -0.148390572390572em; height: 0.893117845117845em"></img> denotes the identity matrix in dimension <span
+      class="no-breaks"><img src="beam-dimension-reduction-basic-90.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0275824915824916em; margin-right: -0.0137912457912458em; margin-top: -0.0235690235690236em; vertical-align: 0em; height: 0.496484848484848em"></img>,</span> <img src="beam-dimension-reduction-basic-91.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912457em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> denotes
+      the Euclidean norm of a tensor,
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-92.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912455em; margin-top: -0.0314343434343434em; vertical-align: -0.258585858585859em; height: 1.11574410774411em"></img></td>
+        <td align="right">(28)</td>
+      </tr>
+    </table>
+    <p>
+      In the Hookean case, the stress is given by (<a href="#eq:3D-stress-general-CL">6</a>) as
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-93.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912464em; margin-top: -0.0115016835016836em; vertical-align: -0.258585858585859em; height: 1.12263973063973em"></img></td>
+        <td align="right">(29)</td>
+      </tr>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      In view of Equations (<a href="#eq:eps-tilde-reduction">15</a>&ndash;<a href="#eq:W-tilde-to-W">21</a>), the energy
+      density takes the form
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-94.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0896161616161617em; margin-right: -0.0137912457912464em; margin-top: 0.0930370370370373em; vertical-align: -6.36627609427609em; height: 13.0066531986532em" id="eq:W-2D-elastic"></img></td>
+        <td align="right">(30)</td>
+      </tr>
+    </table>
+    <p>
+      where the norm appearing on the last line is the norm of a
+      <em>vector.</em>
+    </p>
+    <p>
+      The first two terms concerns to the combined effect of stretching and
+      bending, while the last term concerns twisting.
+    </p>
+    <p>
+      We first deal with the bending and stretching problems, which are
+      coupled. Minimizing the first two terms in (<a href="#eq:W-2D-elastic">30</a>) with
+      respect to the apparent 2D strain <img src="beam-dimension-reduction-basic-55.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> yields the
+      classical solution of Hookean elasticity in simple traction,
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-95.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.109494949494949em; margin-right: -0.0137912457912464em; margin-top: 0.0896161616161615em; vertical-align: -0.558734006734007em; height: 1.37511111111111em"></img></td>
+        <td align="right">(31)</td>
+      </tr>
+    </table>
+    <p>
+      that gives rise to a 3D strain and stress,
+    </p>
+    <center>
+      <img src="beam-dimension-reduction-basic-96.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0930639730639731em; margin-right: -0.0137912457912464em; margin-top: 0.0817239057239057em; vertical-align: -1.37306397306397em; height: 3.02809427609428em"></img>
+    </center>
+    <p>
+      Here, <img src="beam-dimension-reduction-basic-97.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0411043771043771em; margin-top: -0.0235690235690236em; vertical-align: 0em; height: 0.482693602693603em"></img> is Poisson's coefficient and <img src="beam-dimension-reduction-basic-98.png"
+      style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.196686868686869em; margin-top: -0.0103703703703704em; vertical-align: 0em; height: 0.730936026936027em"></img> is the Young modulus,
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-99.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0631649831649832em; margin-right: -0.0137912457912464em; margin-top: 0.0930370370370368em; vertical-align: -2.20786531986532em; height: 4.71630976430976em"></img></td>
+        <td align="right">(32)</td>
+      </tr>
+    </table>
+    <p>
+      We have minimized the energy at every point over the cross-sectional
+      strain <span class="no-breaks"><img src="beam-dimension-reduction-basic-100.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781145em; margin-right: -0.0137912457912458em; margin-top: -0.0298989898989899em; vertical-align: 0em; height: 0.52406734006734em"></img>:</span> to confirm that this
+      approach is valid, we need to check that the 3D strain <img src="beam-dimension-reduction-basic-101.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781145em; margin-right: -0.0137912457912458em; margin-top: -0.0112861952861952em; vertical-align: 0em; height: 0.752296296296296em"></img>
+      found in this way is geometrically compatible. This verification is left
+      to the reader.
+    </p>
+    <p>
+      The solution of the twisting problem is found by minimizing the last
+      term in (<a href="#eq:W-2D-elastic">30</a>). The solution takes the form
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-102.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912446em; margin-top: -0.0107474747474747em; vertical-align: -0.258585858585859em; height: 1.12953535353535em"></img></td>
+        <td align="right">(33)</td>
+      </tr>
+    </table>
+    <p>
+      where <img src="beam-dimension-reduction-basic-103.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> is the warping function. It is the
+      solution of the minimization problem
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-104.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0183703703703704em; margin-right: -0.0137912457912446em; margin-top: -0.0206868686868686em; vertical-align: -0.920888888888889em; height: 2.33761616161616em"></img></td>
+        <td align="right">(34)</td>
+      </tr>
+    </table>
+    <p>
+      The warping function <img src="beam-dimension-reduction-basic-103.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0103434343434344em; margin-right: -0.0137912457912459em; margin-top: -0.0103434343434343em; vertical-align: -0.258585858585859em; height: 1.0550303030303em"></img> is defined up to a constant
+      representing a longitudinal rigid-body translation.The minimization
+      problem for <img src="beam-dimension-reduction-basic-105.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0264511784511784em; margin-right: -0.0137912457912458em; margin-top: -0.0126599326599327em; vertical-align: -0.201104377104377em; height: 0.958491582491583em"></img> leads to the elliptic boundary-value
+      problem in the cross-section
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-106.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0857643097643097em; margin-right: -0.0137912457912428em; margin-top: 0.127622895622896em; vertical-align: -1.02475420875421em; height: 2.29287542087542em"></img></td>
+        <td align="right">(35)</td>
+      </tr>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      In the particular case of an elliptical cross-section,
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-107.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.00918518518518519em; margin-right: -0.0137912457912464em; margin-top: -0.0314343434343434em; vertical-align: -0.982626262626263em; height: 2.52304377104377em" id="eq:elliptical-x-section"></img></td>
+        <td align="right">(36)</td>
+      </tr>
+    </table>
+    <p>
+      where <img src="beam-dimension-reduction-basic-108.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0275824915824916em; margin-right: -0.0137912457912458em; margin-top: -0.0235690235690236em; vertical-align: 0em; height: 0.496484848484848em"></img> and <img src="beam-dimension-reduction-basic-109.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0275824915824916em; margin-right: -0.0137912457912457em; margin-top: -0.0126599326599327em; vertical-align: 0em; height: 0.758518518518519em"></img> are the
+      half-length of the principal axes, the solution is given by
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-110.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0145723905723906em; margin-right: -0.0137912457912464em; margin-top: -0.0314343434343434em; vertical-align: -0.772444444444444em; height: 2.24996632996633em"></img></td>
+        <td align="right">(37)</td>
+      </tr>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      Returning to the general case and collecting the above results, we
+      obtain the four contributions to the relaxed strain and stress listed in
+      (<a href="#eq:elast-decompose-optimal-strain">22</a>) in the form
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-111.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0930639730639728em; margin-right: -0.0137912457912464em; margin-top: 0.0817239057239054em; vertical-align: -3.23655218855219em; height: 6.75509764309764em"></img></td>
+        <td align="right">(38)</td>
+      </tr>
+    </table>
+    <p>
+      The explicit expression of the microscopic stress is
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-112.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0541683501683501em; margin-right: -0.0137912457912464em; margin-top: 0.0127946127946128em; vertical-align: -1.27569023569024em; height: 2.93753535353535em"></img></td>
+        <td align="right">(39)</td>
+      </tr>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      The <img src="beam-dimension-reduction-basic-76.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.08196632996633em; margin-right: -0.0137912457912459em; margin-top: -0.0505858585858586em; vertical-align: -0.0957575757575758em; height: 0.730936026936027em"></img> matrix of 1D elastic moduli appearing in (<a
+      href="#eq:1D-energy">23</a>) can the be written using (<a href="#eq:elast-1D-moduli">24</a>) as
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-113.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0219797979797978em; margin-right: -0.0137912457912464em; margin-top: -0.479326599326599em; vertical-align: -2.34222222222222em; height: 5.49834343434343em"></img></td>
+        <td align="right">(40)</td>
+      </tr>
+    </table>
+    <p>
+      where <img src="beam-dimension-reduction-basic-114.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0137912457912458em; margin-top: -0.0448484848484848em; vertical-align: 0em; height: 0.765414141414141em"></img> is the cross-sectional area and <img src="beam-dimension-reduction-basic-115.png"
+      style="margin-left: -0.0137912457912458em; margin-bottom: -0.0344781144781145em; margin-right: -0.090047138047138em; margin-top: -0.0103703703703704em; vertical-align: 0em; height: 0.751622895622896em"></img> the torsional constant,
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-116.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0850370370370368em; margin-right: -0.0137912457912464em; margin-top: 0.082720538720539em; vertical-align: -2.27698316498316em; height: 4.8429898989899em"></img></td>
+        <td align="right">(41)</td>
+      </tr>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      If the origin of coordinates is taken at the center of mass of the
+      cross-section, the stretching and bending decouple and we have
+    </p>
+    <center>
+      <img src="beam-dimension-reduction-basic-117.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0541683501683501em; margin-right: -0.0137912457912446em; margin-top: 0.0127946127946128em; vertical-align: -1.27569023569024em; height: 2.93753535353535em"></img>
+    </center>
+    <p>
+      where <img src="beam-dimension-reduction-basic-118.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0137912457912458em; margin-right: -0.0682020202020202em; margin-top: -0.0143838383838384em; vertical-align: 0em; height: 0.73783164983165em"></img> is the matrix of geometrical moments,
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-119.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0541683501683501em; margin-right: -0.0137912457912464em; margin-top: 0.0127946127946128em; vertical-align: -1.68942760942761em; height: 3.7650101010101em"></img></td>
+        <td align="right">(42)</td>
+      </tr>
+    </table>
+    <p>
+      If in addition the coordinates coincide with the principal bending axes,
+      the matrix of geometrical moments becomes diagonal,
+    </p>
+    <center>
+      <img src="beam-dimension-reduction-basic-120.png" style="margin-left: -0.0137912457912458em; margin-bottom: -1.36107744107744em; margin-right: -0.0137912457912464em; margin-top: -1.21279461279461em; vertical-align: -0.689616161616162em; height: 4.26327272727273em"></img>
+    </center>
+    <p>
+      and we recover the standard expressions of the 1D moduli,
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-121.png" style="margin-left: -0.0137912457912458em; margin-bottom: -0.0541683501683501em; margin-right: -0.0137912457912446em; margin-top: 0.0127946127946128em; vertical-align: -1.68942760942761em; height: 3.7650101010101em"></img></td>
+        <td align="right">(43)</td>
+      </tr>
+    </table>
+    <p>
+      The energy of the equivalent beam in (<a href="#eq:1D-energy">23</a>) then takes the
+      form
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-122.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0773872053872053em; margin-right: -0.0137912457912464em; margin-top: -0.0145723905723905em; vertical-align: -1.01664646464646em; height: 2.47523232323232em" id="eq:elastic-1D-energy"></img></td>
+        <td align="right">(44)</td>
+      </tr>
+    </table>
+    <p>
+      and the constitutive laws in (<a href="#eq:elastic-constitutive-laws">25</a>) are written as
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-123.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.120565656565657em; margin-right: -0.0137912457912464em; margin-top: 0.127622895622896em; vertical-align: -2.25392592592593em; height: 4.71644444444444em"></img></td>
+        <td align="right">(45)</td>
+      </tr>
+    </table>
+    <p>
+      
+    </p>
+    <p>
+      In the particular case of an elliptical cross-section, see Equation (<a
+      href="#eq:elliptical-x-section">36</a>), the 1D moduli are given by
+    </p>
+    <table width="100%">
+      <tr>
+        <td width="100%" align="center"><img src="beam-dimension-reduction-basic-124.png" style="margin-left: -0.0137912457912458em; margin-bottom: 0.0888350168350169em; margin-right: -0.0137912457912464em; margin-top: 0.127622895622896em; vertical-align: -3.54243771043771em; height: 7.32519865319865em"></img></td>
+        <td align="right">(46)</td>
+      </tr>
+    </table>
+    <p>
+      
+    </p>
+  </body>
+</html>
