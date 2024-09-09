@@ -3,7 +3,6 @@ Authors :
 - Basile Audoly, basile.audoly@polytechnique.edu
 - Corrado Maurini, corrado.maurini@sorbonne-universite.fr
 
-*Copyright (c) 2024. All rights reserved.*
 
 # Dimensional reduction of a beam model (linear elasticity)
 
